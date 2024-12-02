@@ -1,0 +1,30 @@
+/* neu-beim-sommerfest/nbs */
+.viva-tools img {
+    max-height: 55px;
+    max-width: 150px;
+    float: right;
+}
+
+.viva-tools .card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.viva-tools .no {
+    float: left;
+    font-size: 3em;
+    padding-right: 10px;
+}
+
+@media (min-width: 576px) {
+    .viva-tools .card {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .viva-tools .no {
+        margin-left: -65px;
+        margin-top: -20px;
+    }
+}
